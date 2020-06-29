@@ -5,7 +5,7 @@ const Child = (props) => {
     console.log(counterValue);
     return (
         <div>
-            <h2>This is first child1</h2>
+            <h2>This is first child 1</h2>
             <h2>Counter value is : {counterValue[0]}</h2>
             <button onClick={() => {counterValue[1](++counterValue[0])}}>Increment +1</button>
         </div>
