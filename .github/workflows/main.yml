@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build bootcampSession5_by_umer_.surge.sh --token ${{secrets.A5SECRET_TOKEN}}
+      run: surge ./build bootcampSession5expensetracking.surge.sh --token ${{secrets.A5SECRET_TOKEN}}
